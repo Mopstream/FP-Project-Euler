@@ -17,7 +17,7 @@ sumOfDigits :: Int -> Int
 sumOfDigits x = sum $ map (^ (5 :: Int)) $ digits x
 
 recursion :: Int
-recursion = (recursion' 2)
+recursion = recursion' 2
   where
     recursion' :: Int -> Int
     recursion' x
