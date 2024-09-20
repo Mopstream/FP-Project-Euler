@@ -11,7 +11,7 @@ main = do
   assertEquals (P1.modul 1000, 233168) "Модульная реализация"
   assertEquals (P1.mapped 1000, 233168) "Отображение"
   assertEquals (P1.infinity 1000, 233168) "Бесконечный список"
-  TIO.putStrLn "end\n"
+  TIO.putStrLn $ "end\n"
 
   TIO.putStrLn "Project Euler Prob 30 start testing"
   assertEquals (P30.tailrec, 443839) "Хвостовая рекурсия"
